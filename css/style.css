@@ -1,0 +1,28 @@
+body {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 20px;
+}
+.h2 {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+div p {
+    font-style: italic;
+}
+
+#home {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#chicken, #beef, #sushi {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+@media (max-width: 575px) {
+    .container {
+        padding: 0 30px;
+    }
+}
